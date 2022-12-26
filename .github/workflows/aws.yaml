@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: docker-react-repo # 257435201130.dkr.ecr.us-east-1.amazonaws.com/docker-react-repo        # set this to your Amazon ECR repository name
   ECS_SERVICE: docker-react-service  #arn:aws:ecs:us-east-1:257435201130:service/docker-react-cluster/docker-react-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: docker-react-cluster #arn:aws:ecs:us-east-1:257435201130:cluster/docker-react-cluster                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: docker-react-task #ws:ecs:us-east-1:257435201130:task-definition/docker-react-task:1 #docker-react-task # set this to the path to your Amazon ECS task definition 
+  ECS_TASK_DEFINITION: docker-react-task:1 #ws:ecs:us-east-1:257435201130:task-definition/docker-react-task:1 #docker-react-task # set this to the path to your Amazon ECS task definition 
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: martinmdock/react-test           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
