@@ -36,7 +36,7 @@ env:
   ECS_SERVICE: arn:aws:ecs:us-east-1:257435201130:service/docker-react-cluster/docker-react-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: arn:aws:ecs:us-east-1:257435201130:cluster/docker-react-cluster                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: docker-react-task # set this to the path to your Amazon ECS task definition 
-  #arn:aws:ecs:us-east-1:257435201130:task-definition/docker-react-task:1
+  #task id: arn:aws:ecs:us-east-1:257435201130:task-definition/docker-react-task:1
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: martinmdock/react-test           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
