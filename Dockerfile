@@ -13,6 +13,8 @@ RUN npm run build
 # the route for the build is /home/node/app/build
 
 FROM nginx
+#Expose the port.
+EXPOSE 80 
 COPY --from=builder /home/node/app/build /usr/share/nginx/html
 
 
