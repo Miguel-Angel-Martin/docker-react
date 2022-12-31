@@ -1,7 +1,7 @@
 #this file is for production.
-FROM node:16-alpine as builder
+#FROM node:16-alpine as builder
 
-#FROM node:18-alpine3.16 as builder
+FROM node:18-alpine3.16 as builder
 
 WORKDIR '/app'
 COPY package.json .
